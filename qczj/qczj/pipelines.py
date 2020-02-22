@@ -54,6 +54,3 @@ class BMWImagesPipeline(ImagesPipeline):
         image_name = path.replace('full/', '')
         return '{}/{}'.format(category, image_name)
 
-
-if __name__ == '__main__':
-    print(IMAGES_STORE)
